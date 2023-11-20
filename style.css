@@ -158,8 +158,8 @@ main .block{
 /* create a box for main content */
 .block{
     display: flex;
-    gap: 40px;
-    justify-content: space-between;
+    gap: 10%;
+    justify-content: center;
     align-items: center;
 }
 
@@ -175,8 +175,6 @@ main .block{
 .block .img{
 
     width: 45%;
-    height: 75%;
-    background-image: url("./img/item1.svg");
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -186,27 +184,24 @@ main .block{
 
 
 .section1{
-
-    height: 75%;;
-    width: 35%;
+    height: 75%;
+    width: 20%;
     display: flex;
     flex-direction: column;
-    gap: 15%;
+    gap: 8%;
+    justify-content: center;
 }
 
 .section1 h2{
-    margin-top: 4%;
-    width: 45%;
     font-size: 40px;
     color: black;
-    line-height: 99%;
     font-weight: 1000;
+    text-wrap: wrap;
 }
 
 
 .section1 p{
-    width: 45%;
-    line-height: 30px;
+    line-height: 20px;
 }
 /* end management block */
 
