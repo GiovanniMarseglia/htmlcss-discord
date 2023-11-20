@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+.grey{
+    background-color: #e4e2e2;
+}
+/* start container named header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    background-color: rgb(43, 43, 245);
+    height: 500px;
+}
+
+
+/* ------- */
+/* start nav */
+.top{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.list-nav ul{
+    list-style-type: none;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    height: 100%;
+    gap: 3%;
+}
+
+.list-nav{
+    width: 40%;
+    border: 1px solid red;
+    height: auto;
+    
+    
+}
+
+ul li{
+    border: 1px solid green;
+    width: calc(100%/5);
+    background-color: white;
+    
+}
+
+.logo{
+    border: 1px solid black;
+    background-color: white;
+    
+    width: 100px;
+}
+
+#login{
+    border: 1px solid black;
+    width: 100px;
+    background-color: white;  
+}
+/* finish nav */
+/* -------- */
+
+
+.principal{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 8%;
+}
+
+#text{
+    border: 1px solid black;
+    height:30% ;
+    width: 70%;
+}
+
+#title{
+    border: 1px solid black;
+    width: 35%;
+    height: 20%;
+}
+
+#button{
+    background-color: green;
+    width: 20%;
+    min-height: 7%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+
+.button1{
+    background-color: black;
+    text-decoration: none;
+    width: 40%;
+    border-style: none;
+}
+/* finish container named header */
+
+
+
+
+/* start container named main */
+main{
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    border: 1px solid black;
+    align-items: center;
+    width: 100%;
+}
+
+/* used "flex grow 1" for all divs except the last div with "grow 2"*/
+
+main>div{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    border: 1px solid red;
+}
+
+main .block{
+    width: 85%;
+    border: 1px solid red;
+}
+
+
+/* create a box for main content */
+.block{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*block with second class named "invert" switch img and text position */
+.invert{
+    flex-direction: row-reverse;
+}
+
+
+/* start management content block */
+.block .img{
+    border: 1px solid black;
+    width: 45%;
+    height: 75%;
+    background-color: gray
+}
+
+
+
+
+.section1{
+    border: 1px solid black;
+    height: 75%;;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 h2{
+    height: calc(100%/2);
+    width: 50%;
+    background-color: green
+}
+
+
+.section1 p{
+    border: 1px solid red;
+    width: 50%;
+    height: calc(100%/2);
+    background-color: lightblue
+}
+/* end management block */
+
+
+.f2{
+    width: 100%;
+    flex-grow: 2;
+    border: 1px solid red;
+}
+
+/* last block != row */
+/* start management last block container in main */
+/* block with grow 2 */
+.lst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    border: 1px solid red;
+    
+}
+
+.lst h2{
+    height: 50%;
+    width: 75%;
+    background-color: green;
+}
+
+.lst div:first-child{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lst p{
+    border: 1px solid red;
+    height: 50px;
+    width: 90%;
+    background-color: lightblue
+}
+
+
+.lst figure{
+    height: 60%;
+    width: 100%;
+    background-color: grey;
+}
+
+
+#lstfoot{
+    border: 1px solid red;
+    height: 18%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lstfoot span{
+height: calc(100%/2);
+width: 100%;
+background-color: lightblue
+}
+
+
+#lstfoot button{
+    height: 30%;
+    width: 50%;
+    background-color: black;
+    border-style: none;
+}
+/* end last block*/
+
+/* end container named main */
+
+
+
+/* start last container in html named footer */
+footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23272A;
+    border: 1px solid yellow;
+}
+
+/* start "main" of the footer container */
+#final{
+    width: 80%;
+    height: 90%;
+    border: 1px solid rgb(255, 0, 242);
+    display: flex;
+    gap: 5%;
+}
+
+/* start section for left information in main-footer */
+
+#text1{
+    height: 50px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#card1{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 20%;
+    border: 1px red solid;
+    gap: 5px;
+    margin-top: 5%;
+}
+
+#card1 #a{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    gap:10%;
+    background-color: white;
+}
+a{
+    width: calc(100%/4);
+    height: 100%;
+
+    background-color: blue;
+}
+
+#card2{
+margin-top: 5%;
+border: 1px red solid;
+width: 65%;
+display: flex;
+justify-content: space-between;
+gap: 3%;
+}
+
+#leng{
+    height: 15%;
+    width: 30%;
+    background-color: green;
+}
+/* end section for left information in main-footer */
+
+
+/* start section for the ul */
+.list1{
+    border: 1px blue solid;  
+    height: 100%;
+    width: calc(100%/4);
+}
+
+
+.list2{
+    height: 100%;
+    width: calc(100%/4);
+    border: 1px blue solid;   
+}
+
+
+.list3{
+    border: 1px blue solid;  
+    height: 100%;
+    width: calc(100%/4);
+}
+
+
+.list4{
+    border: 1px blue solid;  
+    height: 100%;
+    width: calc(100%/4);
+}
+
+footer ul{
+    height: 100%;
+    width: 100%;
+}
+
+footer li{
+    border: 1px solid black;
+    width: 75%;
+    height: 18px;
+    margin: 2% 4%;
+    background-color: white;
+    
+}
+
+#card2>div>h2{
+    width: 65%;
+    height: 20px;
+    background-color: lightblue;
+    margin: 7px;
+    margin-left: 4%;
+}
+/* end section ul */
+
+/* end "main" of the footer container */
+
+
+/*start footer for the footer container  */
+#deep{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    height: 10%;
+    justify-content: space-between;
+    border-top: 1px solid white;
+}
+#deep figure, #deep button{
+    width: 5%;
+    height: 80%;
+    background-color: white;
+}
+/*end footer for the footer container  */
+
+/* end footer container */
