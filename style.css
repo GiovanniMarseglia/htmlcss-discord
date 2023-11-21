@@ -26,7 +26,6 @@ header{
     background-size: cover;
 }
 
-
 /* ------- */
 /* start nav */
 .top{
@@ -47,8 +46,6 @@ header{
 .list-nav{
     width: 40%;
     height: auto;
-    
-    
 }
 
 ul li{
@@ -61,6 +58,7 @@ ul li{
 figure>img{
     height: auto;
     width: auto;
+    display: block;
 }
 
 .logo{
@@ -79,7 +77,6 @@ figure>img{
 }
 /* finish nav */
 /* -------- */
-
 
 .principal{
     display: flex;
@@ -113,7 +110,6 @@ figure>img{
 }
 
 
-
 #button button:last-child{
     background-color: #282B2E;
     color: white;
@@ -128,8 +124,6 @@ figure>img{
     border-radius: 999em 999em;
 }
 /* finish container named header */
-
-
 
 
 /* start container named main */
@@ -163,7 +157,6 @@ main .block{
 }
 
 
-
 /*block with second class named "invert" switch img and text position */
 .invert{
     flex-direction: row-reverse;
@@ -177,8 +170,6 @@ main .block{
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-
 
 
 .section1{
@@ -250,8 +241,6 @@ main .block{
 }
 
 
-
-
 #lstfoot{
     display: flex;
     flex-direction: column;
@@ -282,7 +271,6 @@ margin-top: 8%;
 /* end last block*/
 
 /* end container named main */
-
 
 
 /* start last container in html named footer */
@@ -327,7 +315,7 @@ footer{
     gap:2em;
 }
 
-#flag{
+.flag{
    width: 30px;
    background-image: url("./img/ita.png");
    background-repeat: no-repeat;
@@ -416,7 +404,6 @@ footer li a{
 
 /* end "main" of the footer container */
 
-
 /*start footer for the footer container  */
 #deep{
     display: flex;
@@ -439,7 +426,6 @@ footer li a{
     background-color: #8D9FE0;
     padding: 1%;
 }
-
 
 #deep figure{
     width: 7%;
